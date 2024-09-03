@@ -107,6 +107,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+						<imageName>javacodewiz/accounts:latest</imageName>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
